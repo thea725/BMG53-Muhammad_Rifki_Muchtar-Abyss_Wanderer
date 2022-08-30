@@ -1,0 +1,42 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "damage": 30,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "isPlayer": true,
+    "maxHp": 100,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "skill": [
+      "myplugin/f750ba91-6937-4231-b24a-6c5443724b6c"
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9a60e191cd50bfc8dcd8adf802ab3090",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

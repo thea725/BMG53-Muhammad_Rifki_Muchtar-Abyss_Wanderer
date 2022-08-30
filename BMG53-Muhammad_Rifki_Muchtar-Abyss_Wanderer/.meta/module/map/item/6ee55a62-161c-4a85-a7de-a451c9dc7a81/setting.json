@@ -1,0 +1,40 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/59d0075d-b1ba-4f93-a5c2-ca8366891590",
+        "id": "8781408476974366721",
+        "position": {
+          "x": 26.2979965209961,
+          "y": 52.8515663146973,
+          "z": 4.58309555053711
+        },
+        "scale": {
+          "x": 3.78097,
+          "y": 3.69298,
+          "z": 0.999982
+        },
+        "size": {
+          "x": 3.78096556663513,
+          "y": 3.69298076629639,
+          "z": 0.999982357025146
+        }
+      }
+    ],
+    "name": {
+      "value": "map_6ee55a62-161c-4a85-a7de-a451c9dc7a81"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a7dc80009347eef87eda1538d7c45367"
+    },
+    "VERSION": "0.23"
+  }
+}

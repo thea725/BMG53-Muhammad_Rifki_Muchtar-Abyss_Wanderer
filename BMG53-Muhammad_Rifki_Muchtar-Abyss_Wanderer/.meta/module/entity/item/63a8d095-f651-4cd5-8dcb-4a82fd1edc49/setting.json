@@ -1,0 +1,42 @@
+{
+  "data": {
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/f750ba91-6937-4231-b24a-6c5443724b6c"
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 1
+    },
+    "AI_patrol": {
+      "patrolDistance": 1
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "avoidCliff": false,
+        "height": 1
+      }
+    },
+    "canRevive": true,
+    "damage": 20,
+    "enableAI": true,
+    "maxHp": 100,
+    "name": {
+      "value": "entity_63a8d095-f651-4cd5-8dcb-4a82fd1edc49"
+    },
+    "skill": [
+      "myplugin/f750ba91-6937-4231-b24a-6c5443724b6c"
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b3fd389105f431285c7538c66e9cd5e0",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

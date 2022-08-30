@@ -1,0 +1,57 @@
+{
+  "bake_texture_size": 64,
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "is_bake_light_effect_visible": false,
+  "scene": [
+    {
+      "attributes": [],
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "cfgName": "myplugin/59d0075d-b1ba-4f93-a5c2-ca8366891590",
+        "id": "8781408476974366721",
+        "isVisibleInEditor": "true",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:26.2979965209961 y:52.8515663146973 z:4.58309555053711",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:3.78097 y:3.69298 z:0.999982",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30,
+    "touchupPosY": 720
+  },
+  "useLod": false
+}
