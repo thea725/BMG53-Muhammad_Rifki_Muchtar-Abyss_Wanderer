@@ -72,7 +72,7 @@
   "collisionMatrix": [
     "1"
   ],
-  "defaultMap": "map001",
+  "defaultMap": "a7d3d4e0-bcfe-44e3-8f2f-82e6a8ab75e5",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -94,10 +94,10 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "map001",
-    "x": 18,
-    "y": 53,
-    "z": 6
+    "map": "a7d3d4e0-bcfe-44e3-8f2f-82e6a8ab75e5",
+    "x": 28,
+    "y": 64,
+    "z": 28
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -234,10 +234,10 @@
   },
   "startPos": [
     {
-      "map": "map001",
-      "x": 18,
-      "y": 53,
-      "z": 6
+      "map": "a7d3d4e0-bcfe-44e3-8f2f-82e6a8ab75e5",
+      "x": 28,
+      "y": 64,
+      "z": 28
     }
   ],
   "team": [],
@@ -290,7 +290,23 @@
   "vars": {
     "__OBJ_TYPE": [],
     "entity": [],
-    "global": [],
+    "global": [
+      {
+        "key": "key1",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "key2",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "key3",
+        "run_type": "server",
+        "save": false
+      }
+    ],
     "ui": []
   },
   "waitAtInitPos": true,

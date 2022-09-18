@@ -1,0 +1,109 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Small Orange Snail/g2043_pet_20301.actor"
+    },
+    "AI_home": {
+      "homeSize": 4
+    },
+    "AI_patrol": {
+      "patrolDistance": 3,
+      "patrolMode": "randomPath"
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "height": 3
+      }
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/Small Orange Snail/g2043_pet_20301.actor"
+    },
+    "name": {
+      "value": "entity_f490a6f0-4643-4c08-a276-bec9c664d6e1"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityHp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "e5081640-ebec-4241-a5ed-b9a36ee65c35"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "dd037c91-44b7-4fbc-9cd7-fdd33a92e71b"
+              },
+              "pos": {
+                "x": 614,
+                "y": 163
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "e5081640-ebec-4241-a5ed-b9a36ee65c35"
+              },
+              "pos": {
+                "x": 1005,
+                "y": 139
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "76f29a60-febf-402d-9d4e-2ea005f4012d"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "dd037c91-44b7-4fbc-9cd7-fdd33a92e71b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "7ea27022-0249-4bb5-8b8e-5652bf294881"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "09020d3c15622a11db5f665f0eaeca1f",
+      "triggers.bts": "be13f00a1d3bd6749fec0f8e8a4b76db"
+    },
+    "VERSION": "0.23"
+  }
+}

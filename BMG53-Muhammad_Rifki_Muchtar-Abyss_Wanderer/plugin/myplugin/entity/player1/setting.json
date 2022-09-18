@@ -40,7 +40,7 @@
     "type": "Capsule"
   },
   "collision": false,
-  "damage": 30,
+  "damage": 10,
   "damageViewBobbing": [
     {
       "count": 2,
@@ -76,7 +76,7 @@
   "followEntityDistanceWhenHasTarget": 10,
   "followEntityDistanceWhenNotTarget": 5,
   "FollowWhenCreate": true,
-  "gravity": 0.08,
+  "gravity": 0.1,
   "headPic": "",
   "hideHolder": false,
   "hideHp": 1,
@@ -104,9 +104,11 @@
     "die_front"
   ],
   "reachDistance": 6.5,
+  "reviveTime": 0,
   "setFollowWhenCreate": true,
   "skillInfos": [
-    "myplugin/f750ba91-6937-4231-b24a-6c5443724b6c"
+    "myplugin/fadd1679-c9aa-4986-9bb0-f13ff38e2c14",
+    "myplugin/7b83b1a8-fe7c-455e-a90f-d36174709c5e"
   ],
   "stepHeight": 0.6,
   "swimSpeed": 0.2,

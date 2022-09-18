@@ -1,0 +1,78 @@
+{
+  "data": {
+    "md5": "5a8c1db40cbc9685b68cde8daaf0cba9",
+    "path": "asset/UI/narasi1.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "BackgroundColours": {
+            "b": 56,
+            "g": 56,
+            "r": 72
+          },
+          "BackgroundEnabled": true,
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 10,
+          "FrameEnabled": true,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "282a88ed-c310-443c-aca3-1c96ee32fa5a"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 1.6123656523311
+            },
+            "UDim_Y": {
+              "Offect": 49.3714456149454
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 539.015644788713
+            },
+            "UDim_Y": {
+              "Offect": 200
+            }
+          },
+          "Text": "Halo Abyss Wanderer, selamat datang di titik awal perjalanan.\nKamu akan menantang setiap lapisan untuk sampai ke titik terdalam dari bumi.\nSetiap lapisan memiliki ciri khasnya masing-masing, namun ada dua hal yang kamu perlu pahami bahwa Abyss dapat memberikan berkah dengan beberapa makhluk yang dapat memulihkan HP setelah dikalahkan, dan di sisi lain Abyss itu terkutuk! Pilihlah jalan yang hatimu pilih dan yakinlah bahwa jalan tersebut aman agar terhindar dari kutukan!",
+          "text_key": {
+            "value": "asset/UI/narasi1.layout.StaticText#6c7f762d-0d9e-45d1-b689-0af0f75e9a0b"
+          },
+          "TextColours": {
+            "b": 159,
+            "g": 215,
+            "r": 210
+          },
+          "VertFormatting": "CentreAligned"
+        }
+      ],
+      "id": {
+        "value": "c432d093-619e-4817-862e-eff47e4d1cff"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 349.550554037077
+        },
+        "UDim_Y": {
+          "Offect": 207.771442971912
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 543.932586193078
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "5a8c1db40cbc9685b68cde8daaf0cba9",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.23"
+  }
+}

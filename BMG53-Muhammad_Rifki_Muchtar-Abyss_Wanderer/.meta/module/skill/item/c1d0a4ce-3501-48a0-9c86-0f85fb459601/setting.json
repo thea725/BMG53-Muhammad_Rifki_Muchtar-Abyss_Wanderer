@@ -1,0 +1,115 @@
+{
+  "data": {
+    "name": {
+      "value": "skill_c1d0a4ce-3501-48a0-9c86-0f85fb459601"
+    },
+    "skill": {
+      "type": "Base"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "1900a9e7-0f8f-4612-bdcd-de998d2010e1"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/4b04efc5-d476-4aa2-b6b2-0c33cd4eb942"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e6ad7ee7-b79a-470f-bafc-f4745195b246"
+              },
+              "pos": {
+                "x": 392,
+                "y": 81
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "1900a9e7-0f8f-4612-bdcd-de998d2010e1"
+              },
+              "pos": {
+                "x": 867,
+                "y": 27
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "26e9cb06-30fb-44e9-8cc3-52b9d06e3a9f"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "e6ad7ee7-b79a-470f-bafc-f4745195b246"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "0a19b28c-77d3-43f6-866b-ee0f1e679828"
+            },
+            "pos": {
+              "x": 126,
+              "y": 24
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "34e3b10ff12de232c9e5214a14284fc5",
+      "triggers.bts": "9d2db269128ae4dd1236fb702837155c"
+    },
+    "VERSION": "0.23"
+  }
+}

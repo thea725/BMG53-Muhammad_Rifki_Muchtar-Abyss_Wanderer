@@ -1,0 +1,36 @@
+{
+  "data": {
+    "attackBound": {
+      "height_c": 1.8,
+      "type": "Capsule"
+    },
+    "attackBoundSkillSystemCfg": {
+      "height_c": 1.8,
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "type": "Capsule"
+    },
+    "name": {
+      "value": "skill_system_fadd1679-c9aa-4986-9bb0-f13ff38e2c14"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    },
+    "skillIconPushed": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_nor.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3b99fd2d4f426de2730085f757138307",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

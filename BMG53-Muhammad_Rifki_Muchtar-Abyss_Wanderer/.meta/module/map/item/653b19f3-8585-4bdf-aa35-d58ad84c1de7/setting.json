@@ -1,0 +1,220 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/38512e1c-58c1-428b-8719-614a3e6912cd",
+        "id": "8806692983457071105",
+        "position": {
+          "x": 56.7482528686523,
+          "y": 62.0247955322266,
+          "z": 16.8511962890625
+        },
+        "scale": {
+          "x": 4.06197,
+          "y": 0.999993,
+          "z": 15.6928
+        },
+        "size": {
+          "x": 4.06197309494019,
+          "y": 0.99999326467514,
+          "z": 15.6928253173828
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/88ef49bf-8fe6-4688-b2cb-c35817ebfe9f",
+        "id": "8806734698776002561",
+        "position": {
+          "x": 40.4517059326172,
+          "y": 56.678,
+          "z": 17.8480834960938
+        },
+        "scale": {
+          "x": 3.83196,
+          "y": 0.99999,
+          "z": 15.6927
+        },
+        "size": {
+          "x": 3.831955909729,
+          "y": 0.999989688396454,
+          "z": 15.6926927566528
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/4eb068c2-427e-4be8-ae64-0c06e98189af",
+        "id": "8806735590396526593",
+        "position": {
+          "x": 42.7974967956543,
+          "y": 56.53,
+          "z": 7.26535034179688
+        },
+        "scale": {
+          "x": 6.56989,
+          "y": 0.999978,
+          "z": 4.53055
+        },
+        "size": {
+          "x": 6.56988573074341,
+          "y": 0.999978065490723,
+          "z": 4.53055334091187
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/566b926d-f3b0-4e8b-8f5f-b103db4fc5c9",
+        "id": "8806811511627939841",
+        "name": "foxy",
+        "position": {
+          "x": 35.304931640625,
+          "y": 68.0000076293945,
+          "z": 25.5952816009521
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/566b926d-f3b0-4e8b-8f5f-b103db4fc5c9",
+        "id": "8806811679571247105",
+        "name": "foxy",
+        "position": {
+          "x": 38.4238357543945,
+          "y": 69.0000305175781,
+          "z": 5.64275789260864
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/566b926d-f3b0-4e8b-8f5f-b103db4fc5c9",
+        "id": "8806811750291210241",
+        "name": "foxy",
+        "position": {
+          "x": 54.1508827209473,
+          "y": 68.0063858032227,
+          "z": 3.29394245147705
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/566b926d-f3b0-4e8b-8f5f-b103db4fc5c9",
+        "id": "8806811802509443073",
+        "name": "foxy",
+        "position": {
+          "x": 61.6496391296387,
+          "y": 68.0033187866211,
+          "z": 16.3515796661377
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/f490a6f0-4643-4c08-a276-bec9c664d6e1",
+        "id": "8806812772845436929",
+        "name": "snaily",
+        "position": {
+          "x": 60.6875495910645,
+          "y": 64.0000152587891,
+          "z": 23.4876270294189
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/f490a6f0-4643-4c08-a276-bec9c664d6e1",
+        "id": "8806812799998820353",
+        "name": "snaily",
+        "position": {
+          "x": 54.4160957336426,
+          "y": 61,
+          "z": 28.8599758148193
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/566b926d-f3b0-4e8b-8f5f-b103db4fc5c9",
+        "id": "8806813450943479809",
+        "name": "foxy",
+        "position": {
+          "x": 39.230583190918,
+          "y": 62.003101348877,
+          "z": 24.4800910949707
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/f490a6f0-4643-4c08-a276-bec9c664d6e1",
+        "id": "8806813702053462017",
+        "name": "snaily",
+        "position": {
+          "x": 58.7672309875488,
+          "y": 69,
+          "z": 5.34175491333008
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/6245a055-7779-4f0d-9c0a-37b08271ee62",
+        "id": "8806946194119917569",
+        "position": {
+          "x": 47.816,
+          "y": 50.5,
+          "z": 16.494
+        },
+        "scale": {
+          "x": 22.062,
+          "z": 24.693
+        },
+        "size": {
+          "x": 22.062,
+          "z": 24.693
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_SceneUI",
+        "id": "8807024985444925441",
+        "isFaceCamera": false,
+        "isTop": false,
+        "layoutFile": {
+          "asset": "asset/UI/narasi2.layout"
+        },
+        "position": {
+          "x": 61.253,
+          "y": 52.012,
+          "z": 6.5527882874012
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/8c97b271-eb90-47bd-8ae4-9e4b2d4f23dc",
+        "id": "8807028288782270465",
+        "position": {
+          "x": 61.9719886779785,
+          "y": 48.8073120117188,
+          "z": 5.51407098770142
+        },
+        "scale": {
+          "x": 4.40092,
+          "y": 0.999988,
+          "z": 3.20197
+        },
+        "size": {
+          "x": 4.40091705322266,
+          "y": 0.999988377094269,
+          "z": 3.2019681930542
+        }
+      }
+    ],
+    "name": {
+      "value": "map_653b19f3-8585-4bdf-aa35-d58ad84c1de7"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c4d5858513cebba9381fe438de7f6f53"
+    },
+    "VERSION": "0.23"
+  }
+}

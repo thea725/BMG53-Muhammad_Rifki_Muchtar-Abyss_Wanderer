@@ -1,0 +1,17 @@
+{
+  "data": {
+    "damage": 10,
+    "deadRemove": true,
+    "moveSpeed": -3,
+    "name": {
+      "value": "buff_4b04efc5-d476-4aa2-b6b2-0c33cd4eb942"
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7d41edd4c83bc41823df5c2667d0c8f3"
+    },
+    "VERSION": "0.23"
+  }
+}

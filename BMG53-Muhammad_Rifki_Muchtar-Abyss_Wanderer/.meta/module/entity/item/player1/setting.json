@@ -16,26 +16,56 @@
       "radius": 0.43,
       "type": "Capsule"
     },
-    "damage": 30,
+    "canRevive": true,
+    "damage": 10,
     "deadAction": {
       "deathHideTime": {
         "value": 60
       },
       "playDeadAction": "die_front"
     },
+    "gravity": 2,
     "isPlayer": true,
     "maxHp": 100,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
     "skill": [
-      "myplugin/f750ba91-6937-4231-b24a-6c5443724b6c"
-    ]
+      "myplugin/fadd1679-c9aa-4986-9bb0-f13ff38e2c14",
+      "myplugin/7b83b1a8-fe7c-455e-a90f-d36174709c5e"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "639df8c8-eba6-496a-869c-a4b7114ab328"
+            },
+            "type": "Trigger_EntityRebirth"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "e2929796-05bb-4622-928a-62f9e4bb0bc9"
+            },
+            "pos": {
+              "x": 176,
+              "y": 107
+            }
+          },
+          "type": "Trigger_EntityRebirth"
+        }
+      ]
+    }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9a60e191cd50bfc8dcd8adf802ab3090",
-      "triggers.bts": ""
+      "setting.json": "b4445ca52703e7a353e287a977667489",
+      "triggers.bts": "bb65290e5b2b35a3965b23a13057e5bb"
     },
     "VERSION": "0.23"
   }

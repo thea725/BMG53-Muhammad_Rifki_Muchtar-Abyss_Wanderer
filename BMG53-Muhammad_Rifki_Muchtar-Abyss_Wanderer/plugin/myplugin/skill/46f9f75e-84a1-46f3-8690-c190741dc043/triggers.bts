@@ -1,0 +1,5 @@
+SKILL_CAST {
+	ForLoop(from = 0, key = "", step = 1, to = 3) {
+		Damage(damage = 10, entity = $obj2, from = $obj1)
+	}
+}

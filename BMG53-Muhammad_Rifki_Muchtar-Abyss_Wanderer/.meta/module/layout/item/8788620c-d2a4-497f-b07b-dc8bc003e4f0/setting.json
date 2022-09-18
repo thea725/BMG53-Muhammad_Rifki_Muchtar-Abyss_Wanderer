@@ -1,0 +1,77 @@
+{
+  "data": {
+    "md5": "e65916cc9c7f636984db9c2902de5ccf",
+    "path": "asset/UI/narasi2.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "BackgroundColours": {
+            "b": 15,
+            "g": 15,
+            "r": 16
+          },
+          "BackgroundEnabled": true,
+          "FrameEnabled": true,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "0ec52bbe-7eb8-44e3-8052-bdceef717b3c"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 0.3370822708376
+            },
+            "UDim_Y": {
+              "Offect": -0.3428527627644
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 450.163002252585
+            },
+            "UDim_Y": {
+              "Offect": 179.814098119721
+            }
+          },
+          "Text": "Untuk melanjutkan perjalanan kita perlu mengorbankan waktu. Pada titik ini, pembengkokkan waktu tidak dapat ditolerir lagi, aliran waktu yang dirasakan Abyss Wanderer dan orang permukaan akan terasa sangat jauh. Sehingga, saat melakukan Last Dive yang ada di depan mata ini kita perlu menunggu dengan tanpa adanya kepastian kapan perjalanan ini dapat dimulai kembali.",
+          "text_key": {
+            "value": "asset/UI/narasi2.layout.StaticText#ceb0a7b0-fab2-40a9-94bc-9a2ca9c3c724"
+          },
+          "TextColours": {
+            "b": 241,
+            "g": 241,
+            "r": 241
+          },
+          "VertFormatting": "CentreAligned"
+        }
+      ],
+      "id": {
+        "value": "c5cd1fe9-938e-4b5a-b0e6-d0a76b3c90de"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 222.067409944003
+        },
+        "UDim_Y": {
+          "Offect": 158.399990238507
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 474.022472381563
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "e65916cc9c7f636984db9c2902de5ccf",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Large Blue-Eyed Pink Puffer Fish/g2043_pet_20402.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 1,
+          "fullName": "myplugin/c1d0a4ce-3501-48a0-9c86-0f85fb459601"
+        },
+        {
+          "attackDis": 3,
+          "fullName": "myplugin/fadd1679-c9aa-4986-9bb0-f13ff38e2c14"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "homeSize": 6
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "height": 1
+      }
+    },
+    "canRevive": true,
+    "collision": true,
+    "damage": 5,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/Large Blue-Eyed Pink Puffer Fish/g2043_pet_20402.actor"
+    },
+    "hideHp": false,
+    "maxHp": 100,
+    "moveSpeed": 5,
+    "name": {
+      "value": "entity_f4453bf7-b59a-4813-97b3-21d0921b1d49"
+    },
+    "reviveTime": {
+      "value": 60
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e2d903c89f7d92f92fe84bd812c9a4c5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -36,12 +36,205 @@
       "up": {
         "asset": "asset/Texture/Block/diamond_ore.png"
       }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "key1"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": true
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b8b7a051-8c76-4d8e-9e15-f21c14a3ccb4"
+              },
+              "pos": {
+                "x": 454,
+                "y": 60
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    {
+                      "action": "909a000d-d5ec-4fb1-afe6-88b030820f79"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "fe2de09f-c0d3-41ad-815e-d1daaf4cb674"
+              },
+              "pos": {
+                "x": 425,
+                "y": 249
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "1bfdc85d-2a38-411c-8d3d-d0c14a2c6676"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "4c8c7073-77ea-48cd-8142-a51936d034cc"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "909a000d-d5ec-4fb1-afe6-88b030820f79"
+              },
+              "pos": {
+                "x": 670,
+                "y": 264
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "key1"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1bfdc85d-2a38-411c-8d3d-d0c14a2c6676"
+              },
+              "pos": {
+                "x": 886,
+                "y": 224
+              },
+              "type": "T_Bool"
+            },
+            {
+              "__OBJ_TYPE": "Action_RemoveBlock",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "9195107a-ad3f-425b-b3ff-21478b9615c8"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": 17,
+                            "y": 50,
+                            "z": 14
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4c8c7073-77ea-48cd-8142-a51936d034cc"
+              },
+              "pos": {
+                "x": 877,
+                "y": 393
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "map"
+                }
+              ],
+              "id": {
+                "value": "9195107a-ad3f-425b-b3ff-21478b9615c8"
+              },
+              "pos": {
+                "x": 1392,
+                "y": 293
+              },
+              "type": "T_MapObj"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "257d0b9e-2f0f-4b84-9a25-984336db729a"
+            },
+            "type": "Trigger_BlockBreak"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "b8b7a051-8c76-4d8e-9e15-f21c14a3ccb4"
+                  },
+                  {
+                    "action": "fe2de09f-c0d3-41ad-815e-d1daaf4cb674"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "baf11131-5a02-4246-8c1a-5373c09e75c8"
+            },
+            "pos": {
+              "x": 184,
+              "y": 130
+            }
+          },
+          "type": "Trigger_BlockBreak"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
       "setting.json": "c71eab03459ac7496cba87df741a750c",
-      "triggers.bts": ""
+      "triggers.bts": "efacebcc6c1c497a0893cc5fe1621327"
     },
     "VERSION": "0.23"
   }

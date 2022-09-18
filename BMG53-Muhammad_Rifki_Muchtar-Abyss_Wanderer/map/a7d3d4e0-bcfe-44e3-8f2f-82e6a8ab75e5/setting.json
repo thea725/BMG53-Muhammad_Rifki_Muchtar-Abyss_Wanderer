@@ -1,0 +1,282 @@
+{
+  "bake_texture_size": 64,
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "is_bake_light_effect_visible": false,
+  "scene": [
+    {
+      "attributes": [],
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "cfgName": "myplugin/eed4df05-9e2a-489d-b11b-089fd3cf985b",
+        "id": "8802697474454503425",
+        "isVisibleInEditor": "true",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:18.7604999542236 y:59.4488792419434 z:20.068660736084",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:12.2023 y:0.999959 z:15.1751",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "cfgName": "myplugin/87bdaafd-749c-43bb-851e-3fbcd891538c",
+        "id": "8802699508114423809",
+        "isVisibleInEditor": "true",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:11.8130903244019 y:52.7817802429199 z:13.5490188598633",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:10.4537 y:0.438945 z:7.09184",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "cfgName": "myplugin/ce09ea81-8a4d-4035-8ca3-71f57e68c90c",
+        "id": "8806690201200410625",
+        "isVisibleInEditor": "true",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:15.3292665481567 y:48.4933815002441 z:15.0968246459961",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:31.5168 y:0.999981 z:31.6241",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "Entity",
+      "config": "myplugin/f4453bf7-b59a-4813-97b3-21d0921b1d49",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "collisionGroup": "1",
+        "id": "8806772349016883201",
+        "isVisibleInEditor": "true",
+        "name": "puffy",
+        "needSync": "true",
+        "position": "x:26.3071918487549 y:60.0000267028809 z:1.68268203735352",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "Entity",
+      "config": "myplugin/f4453bf7-b59a-4813-97b3-21d0921b1d49",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "collisionGroup": "1",
+        "id": "8806798413350813697",
+        "isVisibleInEditor": "true",
+        "name": "puffy",
+        "needSync": "true",
+        "position": "x:2.32745742797852 y:60.0000076293945 z:28.0952835083008",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "Entity",
+      "config": "myplugin/f4453bf7-b59a-4813-97b3-21d0921b1d49",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "collisionGroup": "1",
+        "id": "8806798463040897025",
+        "isVisibleInEditor": "true",
+        "name": "puffy",
+        "needSync": "true",
+        "position": "x:2.69755554199219 y:56.9999961853027 z:3.66369152069092",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "Entity",
+      "config": "myplugin/f4453bf7-b59a-4813-97b3-21d0921b1d49",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "collisionGroup": "1",
+        "id": "8806798539531976705",
+        "isVisibleInEditor": "true",
+        "name": "puffy",
+        "needSync": "true",
+        "position": "x:7.53822708129883 y:53.0051078796387 z:23.295690536499",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "Entity",
+      "config": "myplugin/f4453bf7-b59a-4813-97b3-21d0921b1d49",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "collisionGroup": "1",
+        "id": "8806798592200065025",
+        "isVisibleInEditor": "true",
+        "name": "puffy",
+        "needSync": "true",
+        "position": "x:22.9849414825439 y:53.0000267028809 z:7.27306699752808",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "cfgName": "myplugin/a4cc648b-89c2-450a-97c8-35c5a7a9eadf",
+        "id": "8806799106625060865",
+        "isVisibleInEditor": "true",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:22.587 y:58.293 z:6",
+        "rotation": "x:-0.0 y:0.0 z:0.0",
+        "scale": "x:5.202 y:0.1 z:5.175",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "cfgName": "myplugin/04bd3e62-b0d5-4f76-a962-9289c0027679",
+        "id": "8806801070945337345",
+        "isVisibleInEditor": "true",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:6.066 y:58.485 z:23.406",
+        "rotation": "x:-0.0 y:0.0 z:0.0",
+        "scale": "x:5.202 y:0.1 z:5.175",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "SceneUI",
+      "customProperties": [],
+      "properties": {
+        "id": "8806854553690292225",
+        "isFaceCamera": "false",
+        "isLock": "true",
+        "isTop": "false",
+        "isVisibleInEditor": "true",
+        "layoutFile": "UI/narasi1.layout",
+        "name": "SceneUI",
+        "position": "x:27 y:66 z:29.9",
+        "rangeDistance": "32",
+        "rotation": "x:0 y:0 z:0",
+        "size": "x:1 y:1",
+        "stretch": "false",
+        "uiID": "8806854553690292225",
+        "uiScaleMode": "0",
+        "useForCollision": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30,
+    "touchupPosY": 720
+  },
+  "useLod": false
+}

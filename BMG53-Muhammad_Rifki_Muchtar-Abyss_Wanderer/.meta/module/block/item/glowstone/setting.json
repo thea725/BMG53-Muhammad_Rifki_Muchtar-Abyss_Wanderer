@@ -5,6 +5,7 @@
         "value": 0
       }
     },
+    "canBreak": false,
     "dropSelf": {
       "canDropSelf": false
     },
@@ -35,12 +36,39 @@
       "up": {
         "asset": "asset/Texture/Block/glowstone.png"
       }
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "8bb968eb-c8ba-42dc-b6eb-308c0d1533bd"
+            },
+            "type": "Trigger_BlockOn"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "198f7179-d5e2-4c98-bc45-80630febf5c9"
+            },
+            "pos": {
+              "x": 281,
+              "y": 147
+            }
+          },
+          "type": "Trigger_BlockOn"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "79b87b8127a99f46b3a284fdcce825c2",
-      "triggers.bts": ""
+      "setting.json": "9e165372c320e8819b89836c40adb6e3",
+      "triggers.bts": "67c93d7a84ce205687d73a82353fd2bc"
     },
     "VERSION": "0.23"
   }

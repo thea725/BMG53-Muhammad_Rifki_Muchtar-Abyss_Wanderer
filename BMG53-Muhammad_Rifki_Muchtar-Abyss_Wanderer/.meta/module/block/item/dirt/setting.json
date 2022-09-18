@@ -5,6 +5,7 @@
         "value": 0
       }
     },
+    "canBreak": false,
     "dropSelf": {
       "canDropSelf": false
     },
@@ -39,7 +40,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b2778da9c73904046fa6fa6f68658ec6",
+      "setting.json": "f9cc6c44c1c55ef172752381fbbaf0cb",
       "triggers.bts": ""
     },
     "VERSION": "0.23"

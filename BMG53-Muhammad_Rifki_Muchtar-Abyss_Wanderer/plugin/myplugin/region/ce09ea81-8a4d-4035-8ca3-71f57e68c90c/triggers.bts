@@ -1,0 +1,14 @@
+REGION_ENTER {
+	SetEntityPosition(
+		entity = $obj1,
+		map = "653b19f3-8585-4bdf-aa35-d58ad84c1de7",
+		pos = {
+			x = 58.0,
+			y = 68.0,
+			z = 29.0
+		},
+		rp = 0,
+		ry = 0
+	)
+	SetEntityRebirthPosition(entity = $obj1, map = GetEntityMap(entity = $obj1), pos = { x = 58, y = 68, z = 29 })
+}

@@ -43,7 +43,7 @@
         "isVisibleInEditor": "true",
         "name": "bot",
         "needSync": "true",
-        "position": "x:18.6247901916504 y:53.0 z:-0.811040878295898",
+        "position": "x:18.6247901916504 y:53 z:-0.811040878295898",
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1",
         "selectable": "true",

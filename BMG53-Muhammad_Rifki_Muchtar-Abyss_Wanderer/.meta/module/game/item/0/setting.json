@@ -7,11 +7,11 @@
       }
     },
     "initPos": {
-      "map": "map001",
+      "map": "a7d3d4e0-bcfe-44e3-8f2f-82e6a8ab75e5",
       "pos": {
-        "x": 18,
-        "y": 53,
-        "z": 6
+        "x": 28,
+        "y": 64,
+        "z": 28
       }
     },
     "nowTime": {
@@ -23,14 +23,39 @@
       "min": 1
     },
     "startPos": {
-      "map": "map001",
+      "map": "a7d3d4e0-bcfe-44e3-8f2f-82e6a8ab75e5",
       "pos": {
-        "x": 18,
-        "y": 53,
-        "z": 6
+        "x": 28,
+        "y": 64,
+        "z": 28
       }
     },
     "unlimitedPlayTime": true,
+    "vars": {
+      "global": [
+        {
+          "key": "key1",
+          "type": "bool",
+          "value": {
+            "__OBJ_TYPE": "T_Bool"
+          }
+        },
+        {
+          "key": "key2",
+          "type": "bool",
+          "value": {
+            "__OBJ_TYPE": "T_Bool"
+          }
+        },
+        {
+          "key": "key3",
+          "type": "bool",
+          "value": {
+            "__OBJ_TYPE": "T_Bool"
+          }
+        }
+      ]
+    },
     "waitGoTime": {
       "value": 100
     },
@@ -43,7 +68,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3e82ed6f1440d8c372cc70f9e33f3521",
+      "setting.json": "2d006e0d5b3cb58ff7e6938748a5505f",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

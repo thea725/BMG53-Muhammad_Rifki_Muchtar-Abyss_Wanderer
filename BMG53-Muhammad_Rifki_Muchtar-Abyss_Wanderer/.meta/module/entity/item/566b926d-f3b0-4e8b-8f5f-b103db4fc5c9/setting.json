@@ -1,0 +1,39 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Small Orange Fox/g2020_pet_fourfeet_fox.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/46f9f75e-84a1-46f3-8690-c190741dc043"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "homeSize": 4
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "avoidCliff": false
+      }
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/Small Orange Fox/g2020_pet_fourfeet_fox.actor"
+    },
+    "name": {
+      "value": "entity_566b926d-f3b0-4e8b-8f5f-b103db4fc5c9"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "35bbfeeafd06e641b9c0cbb184905f31",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}
